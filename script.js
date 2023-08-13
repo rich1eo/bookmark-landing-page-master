@@ -50,3 +50,14 @@ document.querySelectorAll('.tab-btn').forEach(button => {
     `;
   });
 });
+
+document.querySelectorAll('.accordion-item').forEach(item => {
+  item.addEventListener('click', () => {
+    if (item.classList.contains('open')) {
+      item.classList.remove('open');
+      return;
+    }
+
+    item.classList.add('open');
+  });
+});

@@ -93,123 +93,220 @@
                 <a class="btn btn--hero">More Info</a>
               </div>
             </div>
-
-            <!-- <div>
-              <h3>Intelligent search</h3>
-  
-              <p>
-                Our powerful search feature will help you find saved sites in no
-                time at all. No need to trawl through all of your bookmarks.
-              </p>
-  
-              <button>More Info</button>
-            </div>
-  
-            <div>
-              <h3>Share your bookmarks</h3>
-  
-              <p>
-                Easily share your bookmarks and collections with others. Create a
-                shareable link that you can send at the click of a button.
-              </p>
-  
-              <button>More Info</button>
-            </div> -->
           </section>
 
           <section class="section-download">
             <h2>Download the extension</h2>
 
-            <p>
+            <p class="download__description">
               We’ve got more browsers in the pipeline. Please do let us know if
               you’ve got a favourite you’d like us to prioritize.
             </p>
+            <div class="download__browsers">
+              <div class="download__browser">
+                <img
+                  class="download__browser-logo"
+                  src="images/logo-chrome.svg"
+                  alt="Logo of chrome browser"
+                />
+                <h3>Add to Chrome</h3>
+                <p>Minimum version 62</p>
+                <img
+                  class="download__dots"
+                  src="images/bg-dots.svg"
+                  alt="Picture of small dots"
+                />
+                <a href="#" class="btn btn--hero">Add & Install Extension</a>
+              </div>
 
-            <div>
-              <p>Add to Chrome</p>
-              <p>Minimum version 62</p>
-              <p>Add & Install Extension</p>
-            </div>
-
-            <div>
-              <p>Add to Firefox</p>
-              <p>Minimum version 55</p>
-              <p>Add & Install Extension</p>
-            </div>
-
-            <div>
-              <p>Add to Opera</p>
-              <p>Minimum version 46</p>
-              <p>Add & Install Extension</p>
+              <div class="download__browser firefox">
+                <img
+                  class="download__browser-logo"
+                  src="images/logo-firefox.svg"
+                  alt="Logo of firefox browser"
+                />
+                <h3>Add to Firefox</h3>
+                <p>Minimum version 55</p>
+                <img
+                  class="download__dots"
+                  src="images/bg-dots.svg"
+                  alt="Picture of small dots"
+                />
+                <a href="#" class="btn btn--hero">Add & Install Extension</a>
+              </div>
+              <div class="download__browser opera">
+                <img
+                  class="download__browser-logo"
+                  src="images/logo-opera.svg"
+                  alt="Logo of opera browser"
+                />
+                <h3>Add to Opera</h3>
+                <p>Minimum version 46</p>
+                <img
+                  class="download__dots"
+                  src="images/bg-dots.svg"
+                  alt="Picture of small dots"
+                />
+                <a href="#" class="btn btn--hero">Add & Install Extension</a>
+              </div>
             </div>
           </section>
 
           <section class="section-faq">
-            <h2>Frequently Asked Questions</h2>
+            <header class="section__header">
+              <h2>Frequently Asked Questions</h2>
 
-            <p>
-              Here are some of our FAQs. If you have any other questions you’d
-              like answered please feel free to email us.
-            </p>
-
-            <div class="accordion-item">
-              <!-- Question 1 -->
-              <h3>What is Bookmark?</h3>
-
-              <!-- Answer 1 -->
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt justo eget ultricies fringilla. Phasellus blandit
-                ipsum quis quam ornare mattis.
+                Here are some of our FAQs. If you have any other questions you’d
+                like answered please feel free to email us.
               </p>
-            </div>
+            </header>
 
-            <div>
-              <!-- Question 2 -->
-              <h3>How can I request a new browser?</h3>
+            <ul class="accordion-list">
+              <li class="accordion-item">
+                <!-- Question 1 -->
+                <h3>
+                  What is Bookmark?
+                  <span
+                    ><img
+                      src="images/icon-arrow.svg"
+                      alt="Icon of an arrow pointing down"
+                  /></span>
+                </h3>
 
-              <!-- Answer 2 -->
-              <p>
-                Vivamus luctus eros aliquet convallis ultricies. Mauris augue
-                massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
-                luctus eros aliquet convallis ultricies. Mauris augue massa,
-                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros
-                aliquet convallis ultricies. Mauris augue massa, ultricies non
-                ligula. Suspendisse imperdiet.
-              </p>
-            </div>
+                <!-- Answer 1 -->
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  tincidunt justo eget ultricies fringilla. Phasellus blandit
+                  ipsum quis quam ornare mattis.
+                </p>
+              </li>
+              <li class="accordion-item">
+                <!-- Question 2 -->
+                <h3>
+                  How can I request a new browser?
+                  <span
+                    ><img
+                      src="images/icon-arrow.svg"
+                      alt="Icon of an arrow pointing down"
+                  /></span>
+                </h3>
 
-            <div>
-              <!-- Question 3 -->
-              <h3>Is there a mobile app?</h3>
+                <!-- Answer 2 -->
+                <p>
+                  Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                  massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
+                  luctus eros aliquet convallis ultricies. Mauris augue massa,
+                  ultricies non ligula. Suspendisse imperdie tVivamus luctus
+                  eros aliquet convallis ultricies. Mauris augue massa,
+                  ultricies non ligula. Suspendisse imperdiet.
+                </p>
+              </li>
+              <li class="accordion-item">
+                <!-- Question 3 -->
+                <h3>
+                  Is there a mobile app?
+                  <span
+                    ><img
+                      src="images/icon-arrow.svg"
+                      alt="Icon of an arrow pointing down"
+                  /></span>
+                </h3>
 
-              <!-- Answer 3 -->
-              <p>
-                Sed consectetur quam id neque fermentum accumsan. Praesent
-                luctus vestibulum dolor, ut condimentum urna vulputate eget.
-                Cras in ligula quis est pharetra mattis sit amet pharetra purus.
-                Sed sollicitudin ex et ultricies bibendum.
-              </p>
-            </div>
-            <div>
-              <!-- Question 4 -->
-              <h3>What about other Chromium browsers?</h3>
+                <!-- Answer 3 -->
+                <p>
+                  Sed consectetur quam id neque fermentum accumsan. Praesent
+                  luctus vestibulum dolor, ut condimentum urna vulputate eget.
+                  Cras in ligula quis est pharetra mattis sit amet pharetra
+                  purus. Sed sollicitudin ex et ultricies bibendum.
+                </p>
+              </li>
+              <li class="accordion-item">
+                <!-- Question 4 -->
+                <h3>
+                  What about other Chromium browsers?
+                  <span>
+                    <img
+                      src="images/icon-arrow.svg"
+                      alt="Icon of an arrow pointing down"
+                    />
+                    <!-- <svg>
+                      <use href="images/icon-arrow.svg"></use>
+                    </svg> -->
+                  </span>
+                </h3>
 
-              <!-- Answer 4 -->
-              <p>
-                Integer condimentum ipsum id imperdiet finibus. Vivamus in
-                placerat mi, at euismod dui. Aliquam vitae neque eget nisl
-                gravida pellentesque non ut velit.
-              </p>
+                <!-- Answer 4 -->
+                <p>
+                  Integer condimentum ipsum id imperdiet finibus. Vivamus in
+                  placerat mi, at euismod dui. Aliquam vitae neque eget nisl
+                  gravida pellentesque non ut velit.
+                </p>
+              </li>
+            </ul>
+            <div class="faq__footer">
+              <a href="#" class="btn btn--hero">More Info</a>
             </div>
           </section>
         </main>
-
-        <footer class="footer">
-          More Info 35,000+ already joined Stay up-to-date with what we’re doing
-          Contact Us Features Pricing Contact
-        </footer>
       </div>
     </div>
+
+    <footer class="footer">
+      <section class="cta">
+        <p>35,000+ already joined</p>
+        <h2>Stay up-to-date with what we’re doing</h2>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <button class="btn btn--cta">Contact Us</button>
+        </form>
+      </section>
+      <div class="container">
+        <div class="wrapper">
+          <div class="footer-con">
+            <div class="footer__nav">
+              <img
+                src="images/logo-bookmark-light.svg"
+                alt="Picture of logo bookmark"
+              />
+              <ul class="nav">
+                <li><a class="nav__link footer-link" href="#">Features</a></li>
+                <li><a class="nav__link footer-link" href="#">Pricing</a></li>
+                <li><a class="nav__link footer-link" href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__socials">
+              <a class="facebook">
+                <!-- <img
+                  src="images/icon-facebook.svg"
+                  alt="Logo of facebook social network"
+                /> -->
+                <!-- <svg>
+                  <use href="images/icon-facebook.svg"></use>
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <path
+                    fill="#FFF"
+                    fill-rule="evenodd"
+                    d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+                  />
+                </svg>
+              </a>
+              <a class="twitter">
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="Logo of twitter social network"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
